@@ -30,5 +30,13 @@ django rest framework  learn
 # INSTALL 
 
 git clone https://github.com/mesherinovivan/orders.git
-virtu
+cd orders
+virtualenv .env -p=python3.6
+source .env/bin/activate
+pip install -r requirements.txt
+
+
+
+
+
 
